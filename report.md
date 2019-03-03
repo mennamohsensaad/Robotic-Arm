@@ -1,17 +1,15 @@
-# Report 
+# Report1:- Robotic Arm
 
-Robotic Arm
-***************
 
 ## implementations
 to complete robotic arm adding missing fingers in right location 
 just control translation ranges so translate each finger to be side by side and rotate at fixed point  and not forget to save current matrix and restor it  in every code finger so 
 
-To save the current state
+ -To save the current state
 ```
 glPushMatrix();
 ```
-To restore that state
+-To restore that state
 ```
 glPopMatrix();
 ```
@@ -68,7 +66,7 @@ void keyboard(unsigned char key, int x, int y)
 	}
 }
 ```
-Note :- angle 90 is my assumption for natural  finger's movement  
+-Note :- angle 90 is my assumption for natural  finger's movement  
 ## Difficult issues faced me
 make finger rotate at fixed point not around other finger but I solved it  
 
